@@ -1,0 +1,37 @@
+# Civic Data Deep Dive
+
+-  
+- Data literacy  chapter for the [Civic Data Education Series](https://civic-switchboard.gitbook.io/education-series/)  
+	- The plan: Dive into the [CLP Public Wifi](https://data.wprdc.org/dataset/clp-public-wifi) dataset. Look at the data and come up with a *data centric question*, specifically answering the question "what neighborhood uses the most wireless?" To answer this question we need to connect the Wifi data with the [library locations](https://data.wprdc.org/dataset/libraries) dataset because that will give us GPS coordinates for each of the CLP locations. We can then use reverse geolocation with the [neighborhoods](https://data.wprdc.org/dataset/neighborhoods2) dataset to programmatically add a neighborhood information.  
+	- One thing to note when you look at the [CLP Public Wifi](https://data.wprdc.org/dataset/clp-public-wifi) dataset is that the main library is far and above the most used in terms of wifi data.  
+	- Idea: consider the units of the wifi usage. is it time or data? would be interesting to equate the unit to something meaningful. Like if it were data how many movies streamed.  
+		- minutes.  
+	- Use Sunny's [Human OGD Interaction Model](https://drive.google.com/drive/folders/1dTwqJ5Z9HpobQtc0abgS5ZUK0zfn9Bic) as a conceptual scaffolding for each of the steps.  
+		- Task Preparing  
+			- Generate data needs  
+		- Data Foraging  
+			- Find  
+			- Scrutinize  
+			- Acquire  
+		- Data Sensemaking  
+			- Understand  
+			- Schematize  
+		- Data Using  
+			- Prepare  
+			- Analyze  
+			- Represent results  
+			- Interpret and communicate  
+		- Data Sharing  
+	- Steps for video  
+		- Browse the WPRDC for the CLP wifi data  
+		- Look at the data, acknowledge the chart is not the data, click on the "Data Table" tab to show the actual data  
+			- Go to the Data Dictionary and talk through what the columns represent.  
+		- Look at the download options for the different formats (CSV, TSV, JSON, XML)  
+			- Talk through and/or show the different formats?  
+		- Make a note that the dateset does not include very much information about the libraries, but it does have the name and a "CLPID" code. Perhaps there is another dataset with more information on the WPRDC.  
+		- On the WPRDC, browse to the other datasets provided by the Carnegie Library of Pittsburgh. Note there are 2 datasets, the wifi data which we have already seen and a "Library Locations" dataset.  
+		- Browse to the "Library Locations" data and note the map representation. Again note that this is not the actual data, but rather a visual representation in map form. We don't want to download a map because we can't work with the map computationally. Click through to the Library Locations data and then navigate to the "Data Table" tab. This shows the "raw" tabular data.  
+			- Go to the Data Dictionary and talk through what the columns represent.  
+		- Q: at  
+			-  
+			-  
