@@ -35,3 +35,64 @@
 		- Q: at  
 			-  
 			-  
+            
+Make two or more recordings to chunk it out. only a 20 minutes.
+
+Three videos
+- looking at a dataset, specifically the Public Wifi Data. 
+    - looking at it on the WPRDC website. Talking about rows and columns.
+    - Downloading the data and opening in Excel.
+    - Crafting Data driven questions
+- Manipulating data with Python. 
+    - What is Python?
+    - Performing Calculations
+    - Data Visualzation 
+    - Answering Data Driven Questions
+- Connect Datsets together
+    - Joining datsets
+    - Answering Questions with dervied data
+    - Geospacial Visualizations
+
+
+
+## Working Outline of the Notebook
+
+1. Dive into the [CLP Public Wifi](https://data.wprdc.org/dataset/clp-public-wifi/resource/20843d56-506f-44b1-83df-5b16ee865783) dataset
+	1. Look at the data online - Talk about the rows, columns, and what the data represents as a whole. What does each row represent.
+	2. Download the data
+	3. Perform some calculations with Python - aggregate the data so we can see totals for each library.
+	4. Come up with a question that needs more data: What neighborhood uses the most Wifi?
+	5. What additional data do we need to answer this question?
+2. Dive deep into the [CLP Library Locations](https://data.wprdc.org/dataset/libraries/resource/14babf3f-4932-4828-8b49-3c9a03bae6d0?view_id=f34cd02e-17eb-40aa-8f86-ae51968db84a) dataset
+	1. Look at the data online - Talk about rows and columns. What does each row represent.
+	2. Note how the library locations data can be connected to the CLP Wifi Data via the "CLPID" column that is shared in both datasets. Note how this is an example of a "many to one" relationship. Many rows in the CLP Public Wifi data map to only one
+	3. Download the data and load into Python
+	4. Perform calculations - merge with the wifi data so we can get more information.
+	5. Note there is still not enough information to determine neighborhood. But we have GPS coordinates which means we know the geographic location of each library. We can use this geographic information and merge it with geographic data representing each neighbrhood.
+3. Deep dive into the [Neighborhoods](https://data.wprdc.org/dataset/neighborhoods2) dataset
+	1. Look at the data. Show how the "data" is a geographic shape. Show how you can click on various points and it will pop up a table of data. One of the datapoints is the "hood" which says what neighbood the place where you clicked is in.
+	2. Download the data and load into Python - Geopandas vs Pandas -  Note that this is geographic data, so it has a different shape than the tabular data. Different file formats (although it is available as a CSV file).
+	3. Perform calculations - perform reverse Geolocation. We are going to programmatically "click" for each of the library locations and add the data to our dataset.
+4. Talk about the final data table created from the three datasets.
+# Civic Data Literacy Data Deep Dive
+
+
+## Learning Objectives
+
+
+## Concepts
+
+- Finding civic data at a data repository
+	- Find the [CLP Public Wifi](https://data.wprdc.org/dataset/clp-public-wifi/resource/20843d56-506f-44b1-83df-5b16ee865783) dataset
+- Diving into and exploring the dataset
+	- Shape of the data - tabular data
+	- What are the columns?
+	- What does each row represent?
+- Crafting *data centric* questions
+- Downloading the data
+	- Data file formats (CSV, TSV, JSON, XML)
+- Data Manipulation
+	- Aggregations
+	- Grouping
+- Data Visualization
+- 
