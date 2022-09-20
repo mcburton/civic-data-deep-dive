@@ -1,4 +1,4 @@
-# Civic Data Deep Dive
+# Module 5.2: Answering Data Driven Questions
 
 This repository contains the materials for Module 5.2 of the [Civic Data Education Series](https://civic-switchboard.gitbook.io/education-series/segment-5-using-community-data/module-5.2-answering-data-driven-questions-computationally), Answering Data Driven Questions Computationall.
 
