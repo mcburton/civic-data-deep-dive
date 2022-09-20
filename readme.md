@@ -9,3 +9,4 @@ This repository contains the materials for Module 5.2 of the [Civic Data Educati
   - `neighborhoods.geojson` - A geographic dataset representing each of Pittsburgh 90 neighborhoods. [Source on WPRDC](https://data.wprdc.org/dataset/neighborhoods2)
 - `requirements.txt` - A file listing the Python library requirements. Necessary for working with [Binder](https://mybinder.org).
 
+Click this button to launch the notebook: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/mcburton/civic-data-deep-dive/HEAD?labpath=Using%20Civic%20Data.ipynb)
